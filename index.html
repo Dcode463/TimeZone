@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="othersScript/estilo.css">
+	<title>MyZoneTime</title>
+</head>
+<body>
+		<section id="sectionForVideoUrl" style="display:none">
+		<div class="containerOfPlayer">
+		<div id="player"></div>
+			
+		</div>
+    </div>
+		<button id="quitarSectionVideoYoutube">Quitar</button>
+	</section>
+<div id="container">
+
+	<div id="programarAlarma">
+	<p style="position: absolute; top: -5%; color: grey; left: 2%;">chronometer</p>
+	<div class="promptChronometer" style="display : flex ">
+			 <input class="inputsForTimeAlarm" min="0" autocomplete=""  placeholder="Hours" type="number" id="timeHours">
+	 <input class="inputsForTimeAlarm" min="0" autocomplete=""  placeholder="Minutes" type="number" id="timeMinute">
+	 <input class="inputsForTimeAlarm" min="0"  autocomplete="" placeholder="Seconds" type="number" id="timeSeconds">
+	 <input type="text" autocomplete="off" id="url" placeholder="Link para reproducir como alarma">
+	 <div class="promptChronometerButton">
+	 <button id="init_chronometer" style="display:block;">Listo</button>
+	 </div>
+	</div>
+	<div class="containerOfTimeLoad" style="display:none;">
+  <p id="timeHoursP">00</p>   <p id="timeMinutesP">00</p> <p id="timeSecondsP">00</p> 
+	</div>
+	 <button id="cancela_chronometer" style="display: none;">Cancelar</button>	
+	</div>
+	<div id="containerTxt">
+		<p style="position: absolute; top: -5%; color: grey; left: 2%;">Time</p>
+		<p id="text" >
+	00 : 00 : 00 : 00
+		</p>
+	</div>
+<div class="promts">
+	<button class="button"  value="5">5px</button>
+	<button class="button" value="10">10px</button>
+	<button class="button" value="15">15px</button>
+	<button class="button" value="20">20px</button>
+	<button class="button" value="25">25px</button>
+	<button class="button" value="30">30px</button>
+</div>
+</div>
+</div>
+   <script src="https://www.youtube.com/iframe_api"></script>
+<script type="text/javascript" src="othersScript/codigo.js"></script>
+</body>
+</html>

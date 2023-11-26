@@ -1,0 +1,212 @@
+body{
+ background: #1c1c1c ;
+height: 100vh;
+font-family: sans-serif;
+}
+#container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+		width: 50%;
+	height: 50%;
+	background: white;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+}
+.promts{
+	width: auto;
+	height: 20%;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: -30%;
+	left: 50%;
+	transform: translate(-50%);
+    background: white;
+    display: none;
+    justify-content: center;
+    align-content: center;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+	border: solid 2px royalblue;
+}
+#containerTxt{
+ background: #1c1c1c ;
+
+	position: absolute;
+	right: 1%;
+	top: 5%;
+	transform: translate(1%,-5%);
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+	padding: 30px;
+	width: 30% ;
+	height: 20%;
+	display: inline-block;
+	border-radius: 15px;
+   color: white;
+
+}
+#programarAlarma{
+		position: absolute;
+	left: 1%;
+	top: 5%;
+	transform: translate(-1%,-5%);
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+	padding: 20px;
+	width: 45% ;
+	height: 20%;
+	display: inline-block;
+	border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ background: #1c1c1c ;
+ color: white;
+}
+#programarAlarma div{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.promptChronometerButton{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+#url{
+	position: absolute;
+	left: 5%;
+	bottom: 4%;
+	width: 60%;
+		margin: 5px;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    background: white;
+    color: black;
+}
+.promptChronometerButton button{
+	margin: 5px;
+    padding: 5px;
+    color: white;
+    background: royalblue;
+    border:none;
+    border-radius: 5px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+#cancela_chronometer{
+	margin: 5px;
+    padding: 5px;
+    color: white;
+    background: royalblue;
+    border:none;
+    border-radius: 5px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.inputsForTimeAlarm{
+	margin: 5px;
+	display: inline-block;
+	width: 35%;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    background: white;
+    color: black;
+}
+.promts button{
+	border: solid 3px transparent;
+	background: white;
+	margin: 5px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+	border-radius: 15px;
+	cursor:  pointer;
+}
+#text{
+	font-size: 25px;
+}
+.containerOfTimeLoad{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerOfTimeLoad p{
+	display: inline-block;
+}
+#sectionForVideoUrl{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(30, 30, 30, 0.7);
+	backdrop-filter: blur(5px);
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #sectionForVideoUrl button{
+ 	position: absolute;
+ 	bottom: 5%;
+ 	right: 5%;
+ 	padding: 30px;
+ 	font-size: 19px;
+ 		border: solid 3px transparent;
+	background: white;
+	margin: 5px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+	border-radius: 15px;
+	cursor:  pointer;
+
+ }
+ #player{
+ 	border-radius: 15px;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+
+ }
+ .containerOfPlayer{
+ 	background: transparent;
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 50%;
+ 	transform: translate(-50%,-50%);
+ 	border-radius: 15px;
+ 	padding: 20px;
+ 	width: auto;
+ 	height: auto;
+	box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+ }
+ @media only screen and (max-width : 774px){
+ 	#container{
+ 		width: 100%;
+ 		height: 100%;
+ 	}
+ 	#programarAlarma{
+ 			top: 50%;
+ 		left: 50%;
+ 		transform: translate(-50%,-50%);
+ 		width: 80%;
+ 	}
+ 	#containerTxt{
+ 	top: 10%;
+ 		right: 90%;
+ 		transform: translate(90%,10%);
+ 		height: auto;
+ 	}
+ }
+ @media only screen and (max-width : 1252px){
+ 	 	#container{
+ 		width: 90%;
+ 		height: 50%;
+ 	}
+ }
