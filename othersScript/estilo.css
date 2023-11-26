@@ -9,7 +9,7 @@ font-family: sans-serif;
 	top: 50%;
 		width: 50%;
 	height: 50%;
-	background: white;
+	background: trasparent;
 	transform: translate(-50%,-50%);
 	border-radius: 15px;
 	box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
@@ -204,6 +204,7 @@ font-family: sans-serif;
  		width: 80%;
  	}
  	#containerTxt{
+	width : 50%;
  	top: 10%;
  		right: 90%;
  		transform: translate(90%,10%);
